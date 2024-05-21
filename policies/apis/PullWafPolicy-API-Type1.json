@@ -1,0 +1,33 @@
+{
+    "policy": {
+        "name": "svs-DeclarativePullWafPolicy-API-Type1",
+        "description": "Policy is an API policy, receiving an external OpenAPI schema",
+        "template": {
+            "name": "POLICY_TEMPLATE_API_SECURITY"
+        },
+        "applicationLanguage": "utf-8",
+        "enforcementMode": "blocking",
+        "server-technologies": [
+            {
+                "serverTechnologyName": "JavaScript"
+            },
+            {
+                "serverTechnologyName": "Unix/Linux"
+            },
+            {
+                "serverTechnologyName": "jQuery"
+            }
+        ],
+        "signature-settings": {
+            "signatureStaging": false
+        },
+        "policy-builder": {
+            "learnOnlyFromNonBotTraffic": false
+        },
+        "open-api-files": [
+            {
+                "link": "https://api.swaggerhub.com/apis/F5EMEASSA/Arcadia-OAS3/2.0.0-oas3"
+            }
+        ]
+    }
+}

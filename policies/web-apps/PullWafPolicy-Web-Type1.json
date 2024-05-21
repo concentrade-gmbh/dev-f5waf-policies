@@ -1,0 +1,22 @@
+{
+    "policy": {
+        "name": "svs-DeclarativePullWafPolicy-Web-Type1",
+        "description": "Policy contains only default values, coming from the template.",
+        "template": {
+            "name": "POLICY_TEMPLATE_RAPID_DEPLOYMENT"
+        },
+        "applicationLanguage": "utf-8",
+        "enforcementMode": "blocking",
+        "server-technologies": [
+            {
+                "serverTechnologyName": "JavaScript"
+            },
+            {
+                "serverTechnologyName": "Unix/Linux"
+            },
+            {
+                "serverTechnologyName": "jQuery"
+            }
+        ]
+    }
+}
