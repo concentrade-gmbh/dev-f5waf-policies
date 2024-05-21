@@ -26,7 +26,7 @@
         },
         "open-api-files": [
             {
-                "link": "https://api.swaggerhub.com/apis/F5EMEASSA/Arcadia-OAS3/2.0.0-oas3"
+                "link": "https://raw.githubusercontent.com/concentrade-gmbh/dev-f5waf-policies/main/schema/Arcadia-OAS3-2.0.0-oas3.json"
             }
         ]
     }
